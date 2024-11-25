@@ -1,0 +1,30 @@
+File Tree:
+
+    /yahtzee-game
+    │
+    ├── /assets
+    │   ├── /css
+    │   │   ├── styles.css  // Main stylesheet for your game
+    │   │   ├── reset.css   // Optional: For CSS resets
+    │   │
+    │   ├── /js
+    │   │   ├── main.js      // Core game logic
+    │   │   ├── dice.js      // Module for handling dice rolling logic
+    │   │   ├── scoring.js   // Module for calculating scores
+    │   │   ├── ui.js        // Module for handling UI updates
+    │   │
+    │   ├── /images
+    │       ├── dice-1.png  // Dice face for 1
+    │       ├── dice-2.png  // Dice face for 2
+    │       ├── dice-3.png  // Dice face for 3
+    │       ├── ...         // Dice images up to 6
+    │       ├── background.jpg // Optional: Background image
+    │
+    ├── /data
+    │   ├── scores.json  // Optional: Predefined high scores or saved game data
+    │
+    ├── index.html         // Main HTML file for the game
+    ├── README.md          // Documentation for the project
+    ├── favicon.ico        // Icon for the browser tab
+
+-----------------------------------------------------------------------------------------------------------------------
