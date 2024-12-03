@@ -53,6 +53,16 @@ function rollDice() {
   });
 
 }
+// Show or hide the Return to Top button
+window.addEventListener("scroll", () => {
+  const button = document.getElementById("returnToTop");
+  if (window.scrollY > 200) {
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+});
+
 function resetDicePositions(){
   diceElements.forEach(function(diceElement){
     diceElement.style.transform="none";
