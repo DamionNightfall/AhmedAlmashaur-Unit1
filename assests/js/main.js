@@ -96,7 +96,7 @@ function changeDiceFaces(randomDice) {
         player2Dice[index] = diceValue;
       }
 
-      face.src = `./assests/images/die/dice${diceValue}.png`;
+      face.src = `../assests/images/die/dice${diceValue}.png`;
     }
   });
 }
@@ -136,7 +136,7 @@ function changeDiceFaces(randomDice) {
 
       // Update the dice face image
       const face = diceElement.querySelector(".face");
-      face.src = `./assets/images/die/dice${randomDice[index]}.png`;
+      face.src = `./assests/images/die/dice${randomDice[index]}.png`;
     }
   });
 }
@@ -146,7 +146,7 @@ function resetDiceFaces() {
     const face = diceElement.querySelector(".face");
     diceElement.classList.remove("active");
     // Reset dice face to default image
-    face.src = `./assets/images/die/dice${index + 1}.png`;
+    face.src = `./assests/images/die/dice${index + 1}.png`;
     // Reset any applied transformations
     diceElement.style.transform = "none";
   });

@@ -50,7 +50,7 @@ Yahtzee is a dice game that combines strategy and luck. Players aim to score the
   - HTML5 for structure
   - CSS3 with Grid, Flexbox, and Bootstrap for styling
   - JavaScript for game logic and interactivity
-- **Assets**:
+- **assests**:
   - Custom dice images and background designs
   - Responsive media queries for different screen sizes
 
