@@ -96,7 +96,7 @@ function changeDiceFaces(randomDice) {
         player2Dice[index] = diceValue;
       }
 
-      face.src = `./assets/images/die/dice${diceValue}.png`;
+      face.src = `./assests/images/die/dice${diceValue}.png`;
     }
   });
 }
