@@ -108,7 +108,7 @@ html,body{
   align-items: center;
   flex-wrap: wrap;
   gap: 10px; /* Add spacing between dice */
-  min-height: 300px; /* Ensure enough space for dice */
+  min-height: 600px; /* Ensure enough space for dice */
   overflow: hidden;
 }
 
