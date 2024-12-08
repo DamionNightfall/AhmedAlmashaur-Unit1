@@ -4,6 +4,14 @@ A modern web-based version of the classic Yahtzee dice game. This project featur
 
 ---
 
+## Getting started
+
+https://damionnightfall.github.io/yahtzee-game/
+
+## Starting page
+
+![Yahtzee Game](image.png)
+
 ## Features
 
 - 🎲 **Dice Rolling Mechanics**: Smooth animations for dice rolls and active selection functionality.
@@ -21,6 +29,7 @@ A modern web-based version of the classic Yahtzee dice game. This project featur
 Yahtzee is a dice game that combines strategy and luck. Players aim to score the most points by rolling dice to achieve specific combinations.
 
 ### How to Play
+
 1. Each player takes turns rolling **five dice**.
 2. Players are allowed **three rolls per turn** to try for a high-scoring combination.
 3. After each roll, players can select which dice to keep and which to re-roll.
@@ -28,6 +37,7 @@ Yahtzee is a dice game that combines strategy and luck. Players aim to score the
 5. Each category can only be used once during the game.
 
 ### Scoring Categories
+
 - **Upper Section**:
   - Ones, Twos, Threes, Fours, Fives, Sixes
 - **Lower Section**:
@@ -40,6 +50,7 @@ Yahtzee is a dice game that combines strategy and luck. Players aim to score the
   - Chance
 
 ### Winning the Game
+
 - The player with the **highest total score** at the end of all rounds wins.
 
 ---
@@ -56,14 +67,8 @@ Yahtzee is a dice game that combines strategy and luck. Players aim to score the
 
 ---
 
-## Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/DamionNightfall/AhmedAlmashaur-Unit1.git
-
-2.**Navigate to the project's directory**:
-   ```bash
-  cd AhmedAlmashaur-Unit1
-
-
+## Future Improvements:
+1. User Interface and User experience enhancements
+2. Improvements with smoothness and fluidity
+3. Improve on the run speed 
