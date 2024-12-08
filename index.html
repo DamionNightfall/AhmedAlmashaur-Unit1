@@ -59,19 +59,19 @@
         </div>
         <div class="dice-container" id="player1Container">
           <div class="dice" id="die1">
-            <img src="./assests/images/die/dice1.png" class="face" />
+            <img src="./assests/images/die/dice1.png" class="face" alt="dice-1"/>
           </div>
           <div class="dice" id="die2">
-            <img src="./assests/images/die/dice2.png" class="face" />
+            <img src="./assests/images/die/dice2.png" class="face" alt="dice-2"/>
           </div>
           <div class="dice" id="die3">
-            <img src="./assests/images/die/dice3.png" class="face" />
+            <img src="./assests/images/die/dice3.png" class="face" alt="dice-3" />
           </div>
           <div class="dice" id="die4">
-            <img src="./assests/images/die/dice4.png" class="face" />
+            <img src="./assests/images/die/dice4.png" class="face" alt="dice-4"/>
           </div>
           <div class="dice" id="die5">
-            <img src="./assests/images/die/dice5.png" class="face" />
+            <img src="./assests/images/die/dice5.png" class="face" alt="dice-5"/>
           </div>
         </div>
       </div>
@@ -208,50 +208,60 @@
 
     <!-- Rules Section -->
     <section id="rules" class="mt-5">
-      <h2>Game Rules</h2>
-      <p>
-        Yahtzee is a classic dice game of strategy, luck, and skill. The goal is to score the highest points by rolling five dice to create specific scoring combinations.
-      </p>
-      
+      <h1 style="  text-align: center;">Game Rules</h1>
+      <h2>
+        Yahtzee is a classic dice game of strategy, luck, and skill. The goal is
+        to score the highest points by rolling five dice to create specific
+        scoring combinations.
+      </h2>
+
       <h3>Objective</h3>
       <p>
-        The objective of the game is to achieve the highest possible score by completing all categories on the scorecard with the best dice combinations.
+        The objective of the game is to achieve the highest possible score by
+        completing all categories on the scorecard with the best dice
+        combinations.
       </p>
-    
+
       <h3>Components</h3>
       <ul>
         <li><strong>Five Dice</strong>: Used to form combinations.</li>
-        <li><strong>Scorecard</strong>: Lists combinations and scoring rules.</li>
+        <li>
+          <strong>Scorecard</strong>: Lists combinations and scoring rules.
+        </li>
         <li><strong>Players</strong>: Two or more players, taking turns.</li>
       </ul>
-    
+
       <h3>Gameplay</h3>
       <ol>
         <li>
-          <strong>Setup:</strong> Each player gets a scorecard. Decide who goes first (e.g., by rolling dice).
+          <strong>Setup:</strong> Each player gets a scorecard. Decide who goes
+          first (e.g., by rolling dice).
         </li>
         <li>
           <strong>Turn Rules:</strong> Each turn consists of up to three rolls:
           <ul>
+            <li><strong>First Roll:</strong> Roll all five dice.</li>
             <li>
-              <strong>First Roll:</strong> Roll all five dice.
+              <strong>Decision:</strong> After the roll, choose which dice to
+              keep and which to re-roll.
             </li>
             <li>
-              <strong>Decision:</strong> After the roll, choose which dice to keep and which to re-roll.
-            </li>
-            <li>
-              <strong>Second and Third Rolls:</strong> Re-roll up to three times, keeping any desired dice each time.
+              <strong>Second and Third Rolls:</strong> Re-roll up to three
+              times, keeping any desired dice each time.
             </li>
           </ul>
         </li>
         <li>
-          <strong>Scoring:</strong> At the end of a turn, choose a category on the scorecard to record your score. Each category can only be used once.
+          <strong>Scoring:</strong> At the end of a turn, choose a category on
+          the scorecard to record your score. Each category can only be used
+          once.
         </li>
       </ol>
-    
+
       <h3>Scoring Categories</h3>
       <ul>
-        <li><strong>Upper Section:</strong> Scores based on numbers on dice:
+        <li>
+          <strong>Upper Section:</strong> Scores based on numbers on dice:
           <ul>
             <li><strong>Ones:</strong> Sum of all dice showing "1".</li>
             <li><strong>Twos:</strong> Sum of all dice showing "2".</li>
@@ -260,50 +270,81 @@
             <li><strong>Fives:</strong> Sum of all dice showing "5".</li>
             <li><strong>Sixes:</strong> Sum of all dice showing "6".</li>
           </ul>
-          If the upper section score is 63 or higher, a bonus of 35 points is awarded.
+          If the upper section score is 63 or higher, a bonus of 35 points is
+          awarded.
         </li>
-        <li><strong>Lower Section:</strong> Special combinations:
+        <li>
+          <strong>Lower Section:</strong> Special combinations:
           <ul>
-            <li><strong>Three of a Kind:</strong> At least three dice with the same number. Score is the total of all dice.</li>
-            <li><strong>Four of a Kind:</strong> At least four dice with the same number. Score is the total of all dice.</li>
-            <li><strong>Full House:</strong> Three of one number and two of another. Scores 25 points.</li>
-            <li><strong>Small Straight:</strong> Four consecutive numbers (e.g., 1-2-3-4). Scores 30 points.</li>
-            <li><strong>Large Straight:</strong> Five consecutive numbers (e.g., 1-2-3-4-5). Scores 40 points.</li>
-            <li><strong>Chance:</strong> Any combination of dice. Score is the total of all dice.</li>
-            <li><strong>Yahtzee:</strong> All five dice show the same number. Scores 50 points. Subsequent Yahtzees score 100 bonus points.</li>
+            <li>
+              <strong>Three of a Kind:</strong> At least three dice with the
+              same number. Score is the total of all dice.
+            </li>
+            <li>
+              <strong>Four of a Kind:</strong> At least four dice with the same
+              number. Score is the total of all dice.
+            </li>
+            <li>
+              <strong>Full House:</strong> Three of one number and two of
+              another. Scores 25 points.
+            </li>
+            <li>
+              <strong>Small Straight:</strong> Four consecutive numbers (e.g.,
+              1-2-3-4). Scores 30 points.
+            </li>
+            <li>
+              <strong>Large Straight:</strong> Five consecutive numbers (e.g.,
+              1-2-3-4-5). Scores 40 points.
+            </li>
+            <li>
+              <strong>Chance:</strong> Any combination of dice. Score is the
+              total of all dice.
+            </li>
+            <li>
+              <strong>Yahtzee:</strong> All five dice show the same number.
+              Scores 50 points. Subsequent Yahtzees score 100 bonus points.
+            </li>
           </ul>
         </li>
       </ul>
-    
+
       <h3>Winning the Game</h3>
       <p>
-        The game ends when all players have filled every category on their scorecards. The player with the highest total score wins.
+        The game ends when all players have filled every category on their
+        scorecards. The player with the highest total score wins.
       </p>
     </section>
-    
 
     <!-- About Section -->
     <section id="about">
       <h2>About Yahtzee</h2>
       <p>
-        Yahtzee is a timeless dice game that has captivated players for generations. 
-        It combines strategy, luck, and skill to deliver a unique gaming experience every time you play. 
-        Whether you're a seasoned pro or a first-time player, Yahtzee offers excitement for everyone.
+        Yahtzee is a timeless dice game that has captivated players for
+        generations. It combines strategy, luck, and skill to deliver a unique
+        gaming experience every time you play. Whether you're a seasoned pro or
+        a first-time player, Yahtzee offers excitement for everyone.
       </p>
       <h3>History of the Game:</h3>
       <p>
-        Yahtzee was first introduced in the 1950s and quickly became a household favorite. 
-        Its simple yet engaging gameplay has allowed it to stand the test of time, 
-        becoming one of the most popular dice games in the world.
+        Yahtzee was first introduced in the 1950s and quickly became a household
+        favorite. Its simple yet engaging gameplay has allowed it to stand the
+        test of time, becoming one of the most popular dice games in the world.
       </p>
       <h3>Why Yahtzee?</h3>
       <ul>
-        <li><strong>Accessible:</strong> Easy to learn for players of all ages.</li>
-        <li><strong>Engaging:</strong> A mix of luck and strategy keeps every game exciting.</li>
-        <li><strong>Replayable:</strong> No two games are ever the same, making each session unique.</li>
+        <li>
+          <strong>Accessible:</strong> Easy to learn for players of all ages.
+        </li>
+        <li>
+          <strong>Engaging:</strong> A mix of luck and strategy keeps every game
+          exciting.
+        </li>
+        <li>
+          <strong>Replayable:</strong> No two games are ever the same, making
+          each session unique.
+        </li>
       </ul>
     </section>
-    
 
     <!-- Footer -->
     <footer id="mainFooter">
@@ -316,7 +357,6 @@
         </ul>
       </div>
     </footer>
-    
 
     <!-- Return to Top Button -->
     <button

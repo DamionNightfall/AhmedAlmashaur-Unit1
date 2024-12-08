@@ -137,6 +137,7 @@ function changeDiceFaces(randomDice) {
       // Update the dice face image
       const face = diceElement.querySelector(".face");
       face.src = `./assests/images/die/dice${randomDice[index]}.png`;
+      face.alt = `dice${randomDice[index]}`;
     }
   });
 }

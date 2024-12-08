@@ -1,9 +1,9 @@
 :root{
-  --black : #000000;
-  --payne-grey : #536878;
-  --light-blue : #7eb5d2;
+  --black : #484d4e;
+  --payne-grey : #211103;
+  --light-blue : #488286;
   --ghost-white : #f8f8ff;
-  --dark-spring-green : #177245;
+  --dark-spring-green : black;
 }
 
 html,body{
@@ -96,7 +96,7 @@ html,body{
   padding: 20px;
   min-height: 400px;
   max-height: 700px; 
-  background-color: var(--payne-grey);
+  background-color: var(--black);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: auto; /* Adds scroll if content overflows */
@@ -117,7 +117,7 @@ html,body{
   justify-content: center;
   gap: 15px;
   padding: 10px;
-  background-color: var(--dark-spring-green);
+  background-color: var(--light-blue);
   border-radius: 10px;
 }
 
@@ -168,7 +168,7 @@ html,body{
 }
 
 .image-button {
-  background-color: var(--payne-grey);  
+  background-color: var(--light-blue);  
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -287,7 +287,7 @@ body.scrolled #returnToTop {
 
 #rules ul li strong,
 #rules ol li strong {
-  color: var(--black);
+  color: black;
   font-weight: bold;
 }
 
